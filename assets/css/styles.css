@@ -1,0 +1,174 @@
+* {
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1b3a57;
+}
+
+header {
+    background-color: #e67e22;
+    padding: 30%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: 30px; /* Para ajustar a logo, para ajudar o carro preto e branco*/
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: -30px; /* Empurra os itens do menu para a esquerda */
+}
+
+nav ul li {
+    margin-right: 70px; /* Aumenta o espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 20px;
+
+    /* Novo contêiner para as imagens à direita */
+.logo-container {
+    display: 60px;
+    align-items: 60px;
+    position: 60px;
+    right: 60px; /* Mover tudo para a direita */
+}
+
+}
+
+/* Ajustar a barra de navegação */
+header {
+    display: 60px;
+    justify-content: space-between; /* Distribui a logo à esquerda e o menu centralizado */
+    align-items:60px;
+    padding: 30px;
+    background-color: #e67e22; /* Cor de fundo semelhante à da imagem */
+}
+
+header .logo img {
+    width: 3px;
+    margin-right: 2px;
+}
+
+header .logo h1 {
+    font-size: 60px;
+    color: #fff;   
+}
+
+.logo {
+    position: absolute;
+    left: 20px; /* Move a logo para a esquerda */
+    display: flex;
+    align-items: center
+}
+
+/* Novo contêiner para as imagens à direita */
+.logo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 2px; /* Mover tudo para a direita */
+}
+
+.logo-icone {
+    width: 40px;
+    height: auto;
+    margin-right: 100px; /* Espaço entre o ícone e o texto */
+}
+
+.logo-texto {
+    width: 100px;
+    height: auto;
+}
+
+.logo img {
+    width: 3px;
+    margin-right: 3px;
+}
+
+.logo span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Estilizando o banner e as caixas */
+.main-content {
+    display: flex;
+    justify-content: space-between; /* Espaça o conteúdo principal */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 20px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o texto e as caixas à esquerda */
+}
+
+
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner h1 {
+    color: #e67e22;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.card {
+    background-color: #e67e22;
+    padding: 50px; /* Ajuste o padding conforme necessário */
+    text-align: left;
+    border-radius: 20px;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    margin: 20px; /* Adiciona espaçamento ao redor do card */
+   
+    flex-direction: column;
+    align-items: 600px; /* Alinha os itens à esquerda */
+    right: 500px; /* Ajusta a distância da esquerda */
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+}
+
+.card p {
+    color: rgb(17, 85, 231);
+    font-size: 150%;
+    margin-top: 60px;
+}
+
+.large-image {
+    display: 60px;
+    justify-content: 30px; /* Ajusta a imagem para a direita */
+    align-items: 30px; /* Opcional: centraliza a imagem verticalmente dentro do contêiner */
+    margin-top: -350px; /* Ajuste a margem superior conforme necessário */
+}
+
+.large-image img {
+    width: 300%; /* Ajuste a largura da imagem conforme necessário */
+    max-width: 300%; /* Ajusta a largura da imagem para não exceder o contêiner */
+    height: 30px; /* Mantém a proporção da imagem */
+    /* Você pode ajustar o valor de 'width' para aumentar ou diminuir o tamanho da imagem */
+}
